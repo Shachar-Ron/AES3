@@ -1,4 +1,5 @@
 Instructions:
+
 Encrypt/Decrypt:
 –e : instruction to encrypt the input file
 –d: instruction to decrypt the input file
@@ -7,6 +8,7 @@ Encrypt/Decrypt:
 –o <output file path>: a path to the output file
 Usage: Java –jar aes.jar -e/-d –k <path-to-key-file > -i <path-to-input-file> -o <path-to-output-file>
     e.g  Java –jar aes.jar –e –k key.txt –i message.txt –o cypther.txt
+    
 Hack:
 –b : instruction to break the encryption algorithm
 –m <path>: denotes the path to the plain-text message
